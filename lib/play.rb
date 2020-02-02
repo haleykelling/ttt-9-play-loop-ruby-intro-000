@@ -40,4 +40,5 @@ def play(board)
   until number_of_turns == 9
     turn(board)
   end
+  puts "Game over."
 end
